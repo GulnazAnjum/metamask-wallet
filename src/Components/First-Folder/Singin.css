@@ -1,0 +1,618 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+
+
+/* main container css start here */
+.Main-Container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../../public/Images/bg.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* header section css start here */
+.Header-Container {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.Logo {
+    width: 1740px;
+   /* margin-left: 10px !important; */
+    padding-top: 25px;
+}
+
+.Logo img {
+    width: 145px;
+    height: 50px;
+    margin-right: 1000px;
+    
+ 
+}
+.Loogo{
+    margin-left: 10px;
+}
+
+
+.Right-Button {
+    width: 500px;
+    height: auto;
+
+}
+
+/* right button css start here */
+.Right-Button button {
+    border: none;
+    outline: none;
+    width: 180px;
+    height: 40px;
+    font-size: 12px;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.Green-Circle {
+    height: 10px;
+    width: 10px;
+    background-color: rgb(9, 180, 32);
+    border-radius: 50%;
+    line-height: 30px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 1px;
+    margin-left: 10px;
+    /* float: left; */
+}
+
+.Right-Button button:hover {
+    background-color: #0fb9b1;
+}
+
+/* header section css end here */
+
+
+/* Sign In form css start here */
+.SignIn-Form {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.SignIn-Form form {
+    padding: 60px 0;
+    width: 40%;
+    background-color: #9cc5dd;
+    border-radius: 2rem;
+    justify-content: center;
+
+}
+
+.SignIn-Form h1 {
+    font-size: 2.2rem;
+    color: #444;
+    text-align: center;
+}
+
+/* mail input css start here */
+.Email-input {
+    width: 350px;
+    height: 50px;
+    background-color: white;
+    border-radius: 29px;
+    display: flex;
+    margin: 0px auto;
+}
+
+.Email-input input {
+    width: 100%;
+    border-radius: 0px 29px 29px 0px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+
+    background-color: white;
+}
+
+.Email-input input::placeholder {
+    line-height: 40px;
+}
+
+.Mail-Icon {
+    color: #a5b1c2;
+    margin-top: 14px;
+    margin-left: 20px;
+    font-size: 21px;
+}
+
+/* mail input css end here */
+
+/* password input css start here */
+.Password-input {
+    width: 350px;
+    height: 50px;
+    background-color: white;
+    border-radius: 29px;
+    display: flex;
+    margin: 0px auto;
+    margin-top: 17px;
+}
+
+.Password-input input {
+    width: 100%;
+    border-radius: 0px 29px 29px 0px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    line-height: 90px;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+.Password-input input::placeholder {
+    line-height: 34px;
+}
+
+.Password-Icon {
+    color: #a5b1c2;
+    margin-top: 14px;
+    margin-left: 20px;
+    font-size: 23px;
+}
+
+/* password input css start here */
+.Button-Section {
+    width: 100%;
+    text-align: center;
+}
+
+.Form-Button {
+    width: 140px;
+    height: 44px;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    background: linear-gradient(83.57deg, rgba(39, 249, 111, 0) 13.55%, rgba(34, 201, 161, 0.65) 98.35%), linear-gradient(265.77deg, rgba(97, 12, 235, 0) 44.4%, rgba(70, 27, 92, 0) 44.41%, #661A8D 110.31%), #4B35A2;
+    color: white;
+    font-weight: 550;
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+.Button-Section>p {
+    margin-top: 15px;
+}
+
+/* service icons css start here */
+.Facebook-Icon {
+    color: #353b48;
+    margin-top: 18px;
+    font-size: 23px;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 30px;
+    border-radius: 37px;
+
+}
+
+.Twitter-Icon {
+    color: #353b48;
+    margin-top: 18px;
+    margin-left: 20px;
+    font-size: 23px;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 37px;
+}
+
+.Gmail-Icon {
+    color: #353b48;
+    margin-top: 18px;
+    margin-left: 20px;
+    font-size: 23px;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 37px;
+}
+
+.Instagram-Icon {
+    color: #353b48;
+    margin-top: 18px;
+    margin-left: 20px;
+    font-size: 23px;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 37px;
+}
+
+.Facebook-Icon:hover {
+    color: #48dbfb;
+}
+
+.Twitter-Icon:hover {
+    color: #48dbfb;
+}
+
+.Gmail-Icon:hover {
+    color: #48dbfb;
+}
+
+.Instagram-Icon:hover {
+    color: #48dbfb;
+}
+
+
+/* media query css start here */
+@media only screen and (max-width: 802px) {
+    .Logo {
+        width: 1140px;
+        margin-left: 150px;
+        padding-top: 25px;
+    }
+
+    .Logo img {
+        width: 120px;
+        height: 45px;
+    }
+
+    .Right-Button {
+        width: 800px;
+        height: auto;
+    }
+
+    .Right-Button button {
+        width: 160px;
+        height: 28px;
+        font-size: 12px;
+        align-items: center;
+        border-radius: 20px;
+        margin-top: 30px;
+        text-align: left;
+    }
+
+    .Green-Circle {
+        height: 8px;
+        width: 8px;
+    }
+
+    /* form css start here */
+    .SignIn-Form {
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .SignIn-Form form {
+        padding: 60px 0;
+        width: 50%;
+        background-color: #9cc5dd;
+        border-radius: 2rem;
+        justify-content: center;
+
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .Logo {
+        width: 300px;
+        margin-left: 120px;
+        padding-top: 25px;
+    }
+
+    .Logo img {
+        width: 100px;
+        height: 40px;
+    }
+
+    .Right-Button {
+        width: 90px;
+        height: auto;
+    }
+
+    .Right-Button button {
+        width: 160px;
+        height: 24px;
+        font-size: 12px;
+        align-items: center;
+        border-radius: 20px;
+
+    }
+
+    .Green-Circle {
+        height: 8px;
+        width: 8px;
+    }
+
+    /* form css start here */
+    .SignIn-Form {
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .SignIn-Form form {
+        width: 50%;
+    }
+
+    .SignIn-Form h1 {
+        font-size: 19px;
+        color: #444;
+        text-align: center;
+    }
+
+    .Email-input {
+        width: 290px;
+        height: 45px;
+        background-color: white;
+        border-radius: 29px;
+        display: flex;
+        margin: 0px auto;
+    }
+
+    .Email-input input {
+        width: 100%;
+        font-size: 13px;
+        text-indent: 14px;
+    }
+
+    .Mail-Icon {
+        font-size: 17px;
+    }
+
+    .Password-input {
+        width: 290px;
+        height: 45px;
+        background-color: white;
+        border-radius: 29px;
+        display: flex;
+
+    }
+
+    .Password-input input {
+        width: 100%;
+        font-size: 13px;
+        text-indent: 14px;
+
+    }
+
+    .Password-Icon {
+        font-size: 17px;
+    }
+
+    .Form-Button {
+        width: 100px;
+        height: 38px;
+        border-radius: 20px;
+        font-weight: 500;
+        margin-top: 12px;
+    }
+
+    .Button-Section>p {
+        font-size: 13px;
+        font-weight: 500;
+        margin-top: 15px;
+    }
+
+    /* icons css satrt here */
+    .Facebook-Icon {
+
+        font-size: 20px;
+        padding: 8px;
+
+    }
+
+    .Twitter-Icon {
+        font-size: 20px;
+        padding: 8px;
+    }
+
+    .Gmail-Icon {
+        font-size: 20px;
+        padding: 8px;
+    }
+
+    .Instagram-Icon {
+        font-size: 20px;
+        padding: 8px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Right-Button {
+        width: 400px;
+        height: auto;
+
+    }
+
+    /* right button css start here */
+    .Right-Button button {
+        width: 125px;
+        height: 28px;
+        font-size: 10px;
+        align-items: center;
+        border-radius: 20px;
+
+    }
+
+    .Email-input {
+        width: 240px;
+        height: 37px;
+    }
+
+    .Email-input input {
+        width: 100%;
+        font-size: 13px;
+        text-indent: 14px;
+    }
+
+    .Mail-Icon {
+        font-size: 15px;
+        line-height: 9px;
+    }
+
+    .Password-input {
+        width: 240px;
+        height: 37px;
+
+    }
+
+    .Password-input input {
+        width: 100%;
+        font-size: 13px;
+        text-indent: 14px;
+
+    }
+
+    .Password-Icon {
+        font-size: 15px;
+        line-height: 9px;
+    }
+
+    .Form-Button {
+        width: 90px;
+        height: 30px;
+        border-radius: 20px;
+        font-weight: 500;
+        margin-top: 12px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .Logo {
+        width: 290px;
+        margin-left: 110px;
+        padding-top: 22px;
+    }
+
+    .Logo img {
+        width: 90px;
+        height: 35px;
+       
+    }
+
+    .Right-Button {
+        width: 80px;
+        height: auto;
+    }
+
+    .Right-Button button {
+        width: 100px;
+        height: 21px;
+        font-size: 7px;
+        /* align-items: center; */
+        border-radius: 18px;
+
+    }
+
+    .Green-Circle {
+        height: 6px;
+        width: 6px;
+    }
+
+    /* form css start here */
+    .SignIn-Form {
+        width: 100%;
+        margin-top: 18px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .SignIn-Form form {
+        width: 45%;
+    }
+
+    .SignIn-Form h1 {
+        font-size: 17px;
+        color: #444;
+        text-align: center;
+    }
+
+    .Email-input {
+
+        width: 200px;
+        height: 30px;
+        background-color: white;
+        border-radius: 29px;
+        display: flex;
+        margin: 0px auto;
+    }
+
+    .Email-input input {
+        width: 90%;
+        font-size: 10px;
+        text-indent: 11px;
+    }
+
+    .Mail-Icon {
+        font-size: 15px;
+    }
+
+    .Password-input {
+        width: 200px;
+        height: 30px;
+        background-color: white;
+        border-radius: 29px;
+        display: flex;
+
+    }
+
+    .Password-input input {
+        width: 90%;
+        font-size: 10px;
+        text-indent: 11px;
+
+    }
+
+    .Password-Icon {
+        font-size: 16px;
+    }
+
+    .Form-Button {
+        width: 95px;
+        height: 35px;
+        border-radius: 20px;
+        font-weight: 580;
+        margin-top: 10px;
+    }
+
+    .Button-Section>p {
+        font-size: 10px;
+        font-weight: 490;
+        margin-top: 12px;
+    }
+
+    /* icons css satrt here */
+    .Facebook-Icon {
+
+        font-size: 18px;
+        padding: 6px;
+
+    }
+
+    .Twitter-Icon {
+        font-size: 18px;
+        padding: 6px;
+    }
+
+    .Gmail-Icon {
+        font-size: 18px;
+        padding: 6px;
+    }
+
+    .Instagram-Icon {
+        font-size: 18px;
+        padding: 6px;
+    }
+}

@@ -1,0 +1,183 @@
+.Send-Compon {
+    width: 100%;
+    height: 45px;
+    background-color: #2a8cdc;
+    display: flex;
+    color: white;
+}
+
+.Send-Compon input {
+    width: 90% !important;
+    background-color: #2a8cdc;
+    border: none;
+    color: white;
+    font-size: 20px;
+    text-indent: 20px;
+    margin-left: 20px;
+    outline: none;
+    border: none;
+    color: #dfe6e9;
+}
+
+.Send-Compon input::placeholder {
+    color: #dfe6e9;
+}
+
+.Send-Icon {
+    font-size: 20px !important;
+    margin-top: 11px;
+    text-indent: 10px;
+    margin-left: 30px;
+}
+
+
+/* main ui css start here */
+.Main-Icon-Container {
+    background-color: #2a8cdc;
+}
+
+.Main-Header-Icons {
+    background-color: #2a8cdc;
+    width: 100%;
+    display: flex;
+}
+
+.Notification-Icon-Container {
+    width: 700px;
+}
+
+.Notification-Icon {
+    font-size: 40px;
+    line-height: 90px;
+    margin-left: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.Money-Counter {
+    width: 700px;
+    color: white;
+}
+.Second-Link-Container{
+    width:200px;
+    margin-top: 50px;
+    margin-left: 1000px;
+}
+
+.Setting-Icon-Container {
+    width: 120px;
+}
+
+.Setting-Icon {
+    font-size: 28px;
+    color: white;
+    line-height: 83px;
+    cursor: pointer;
+}
+
+
+/* Link Icons Container css start here */
+.Link-Icons-Container {
+    width: 100%;
+    height: auto;
+    background-color: #2a8cdc;
+    padding-bottom: 20px;
+}
+
+.Icon-Header {
+    text-align: center;
+    color: #dfe6e9 !important;
+}
+
+#Content-icon-buy {
+    color: #ffff;
+}
+
+
+/* main icons css start here */
+.Main-Icons {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* send icon css here */
+.Send-Icon {
+    width: 80px;
+    display: block;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.Send-Icon>i {
+    font-size: 29px;
+    position: relative;
+    right: 10px;
+    top: 6px;
+}
+
+.Send-Icon b {
+    text-align: center;
+    font-size: 17px;
+}
+
+/* receive icon css here */
+.Receive-Icon {
+    width: 80px;
+    display: block;
+    text-decoration: none;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+.Receive-Icon>i {
+    font-size: 29px;
+    position: relative;
+    left: 8px;
+    top: 4px;
+}
+
+/* buy icon css here */
+.Buy-Icon {
+    width: 80px;
+    display: block;
+    text-decoration: none;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left:25px ;
+   
+}
+
+.Buy-Icon>i {
+    font-size: 22px;
+    position: relative;
+    left: 8px;
+    bottom: 10px;
+}
+
+.Buy-Icon b {
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: 14px;
+    right: 14px;
+}
+
+/* swap icon css here */
+.Swap-Icon {
+    width: 80px;
+    display: block;
+    text-decoration: none;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+.Swap-Icon>i {
+    font-size: 22px;
+    position: relative;
+    left: 8px;
+}
+
+
