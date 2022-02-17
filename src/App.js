@@ -41,9 +41,12 @@ function App() {
           <Route exact path="/exchange" element={<Exchange />} />
           <Route exact  path="/Receive" element={<Recive />} />
           <Route exact  path="/swap" element={<Swap />} />
+          {/* -------Mayur code-------- */}
+          <Route  path="/Token" element={<Token/>} />
+          <Route exact path="/NFTS" element={<NFts />} />
         </Routes>
       </BrowserRouter> 
-   <BrowserRouter>
+   {/* <BrowserRouter>
    <TokensNft />
        <Routes>
       
@@ -51,7 +54,7 @@ function App() {
          <Route exact path="/NFTS" element={<NFts />} />
        </Routes>
       
-     </BrowserRouter>
+     </BrowserRouter> */}
  
     
      </div> 

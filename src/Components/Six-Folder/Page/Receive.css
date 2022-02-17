@@ -129,3 +129,68 @@
   .SmartChain-Content p{
       padding:12px;
   }
+
+
+
+  /* -----------Mayur QR code css------------- */
+  .qrContainer{
+    height: 60%;
+    border-radius: 15px;
+    padding-top: 30px; 
+    padding-bottom: 30px; 
+    margin: 0 auto;
+  
+
+}
+.qr-box{
+  width: 30%;
+ margin-top: 10px;
+ background-color: rgba(255, 255, 255, 0.667);
+ border: 1px solid rgb(221, 221, 221);
+ margin: 0 auto;
+ border-radius: 10px;
+ padding: 20px;
+}
+
+.qr-box img{     
+    padding: 20px;     
+    width: 20rem;
+    height: auto;
+    
+}
+button{
+    border: none;
+    width: 2rem;
+}
+
+button i{
+  color: #fff;    
+}
+
+.fa {     
+    font-size: 20px;     
+}
+button:hover{
+  color: rgb(48, 75, 228);
+  background-color: #aaa;
+}
+
+.copybutton{
+    background-color:#3275bb;
+    width:60px;
+    height: 60px;
+    border-radius: 60px;
+    margin: 10px;
+}
+@media screen and (max-width:420px) {
+  .qr-box{
+      width: 90%;}
+}
+.addStyle{
+    font-weight: bold;
+
+}
+.qr-box p{
+    word-wrap: break-word;
+
+}
