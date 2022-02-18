@@ -1,9 +1,4 @@
 
-
-
-
-
-
 import logo from './logo.svg';
 import Child from "./Components/Third-Folder/Child"
  import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -22,6 +17,9 @@ import Password from './Components/Second-folder/Password';
  import Token from './Components/Tokens/Token';
  import NFts from "./Components/Tokens/NFts"
  import TokensNft from "./Components/Tokens/TokensNft"
+ import CreateAccount from './Components/ProfilePages/CreateAccount';
+ import ImportAccount from './Components/ProfilePages/ImportAccount';
+ import Settings from './Components/ProfilePages/Settings';
  
 function App() {
   return (
@@ -41,20 +39,16 @@ function App() {
           <Route exact path="/exchange" element={<Exchange />} />
           <Route exact  path="/Receive" element={<Recive />} />
           <Route exact  path="/swap" element={<Swap />} />
-          {/* -------Mayur code-------- */}
-          <Route  path="/Token" element={<Token/>} />
-          <Route exact path="/NFTS" element={<NFts />} />
+        
+          {/* <Route  path="/Token" element={<Token/>} />
+          <Route exact path="/NFTS" element={<NFts />} /> */}
+
+          <Route exact path="/createaccount" element={<CreateAccount />} />
+          <Route exact path="/importaccount" element={<ImportAccount />} />
+          <Route exact path="/settings" element={<Settings />} />
         </Routes>
       </BrowserRouter> 
-   {/* <BrowserRouter>
-   <TokensNft />
-       <Routes>
-      
-         <Route  path="/Token" element={<Token/>} />
-         <Route exact path="/NFTS" element={<NFts />} />
-       </Routes>
-      
-     </BrowserRouter> */}
+  
  
     
      </div> 

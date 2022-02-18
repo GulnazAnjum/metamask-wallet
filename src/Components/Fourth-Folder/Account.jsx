@@ -36,6 +36,9 @@ const ButtonTow =()=>{
             Your Secret Recovery Phrase makes it easy to back up and restore
             your account.
           </p>
+          <p className="end-Content">
+            Save this recovery phrase as it will help you when password is forgotten.
+          </p>
           <div className="Last-Buttons">
             <Button variant="outline-primary" className="First-Button">
               Remind me later
@@ -46,10 +49,12 @@ const ButtonTow =()=>{
             {/* <Button variant="primary" className="Second-Button">
               Next
             </Button> */}
-          </div>
+            </div>
         </Card>
-      </div>
+      
     </div>
+    
+</div>
   );
 };
 
