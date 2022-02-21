@@ -1,12 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Token from "../Tokens/Token";
-import NFts from "../Tokens/NFts";
 import TokensNft from "../Tokens/TokensNft";
-// import {Routing} from "../Tokens/Routing"
-
 import "./MultiCoin.css";
-
 const TestPage = () => {
   return (
     <>
@@ -66,7 +61,7 @@ const TestPage = () => {
         </div>
       </div>
       <TokensNft />
-      {/* <TokensNft/> */}
+      
     </>
   );
 };

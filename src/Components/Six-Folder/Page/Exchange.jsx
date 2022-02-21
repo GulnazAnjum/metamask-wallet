@@ -20,8 +20,6 @@ const Exchange = () => {
                           <h4>BNB</h4>
                       </div>
                 </div><hr/>
-  
-  
                 <div className="TWT-Container">
                 <div className="TWT-Content">
                          <p>You Pay</p>

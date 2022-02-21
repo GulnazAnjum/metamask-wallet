@@ -45,10 +45,7 @@ const ButtonTow =()=>{
             </Button>
             <Button variant="primary" className="Second-Button"  onClick={()=>ButtonTow()}>
               Next
-            </Button>
-            {/* <Button variant="primary" className="Second-Button">
-              Next
-            </Button> */}
+            </Button>          
             </div>
         </Card>
       

@@ -51,9 +51,7 @@ const Child = () => {
           </NavLink>
           <br/>
           <br/>
-          {/* <NavLink to="/account" className="About-Link">
-          Account
-          </NavLink> */}
+         
           <button  onClick={()=>countinnue()}>
               next
             </button>

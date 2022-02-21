@@ -20,11 +20,7 @@ const Home = () => {
           <Route exact path="/Code" element={<Code />} />
           <Route exact path="/About" element={<About />} />
         </Routes>
-
-       
       </Router>
-  
-     
     </React.Fragment>
     
   );

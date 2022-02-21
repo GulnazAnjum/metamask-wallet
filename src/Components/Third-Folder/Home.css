@@ -1,12 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-
-
-
 }
-
-
 
 .gation {
     height: 75px;
@@ -42,8 +37,7 @@
 
 /* right button css start here */
 .Right-Button-Button button {
-    /* border: none; */
-    /* outline: none; */
+
     width: 160px;
     height: 30px;
     font-size: 12px;
@@ -80,7 +74,6 @@
 
 .span-span {
     margin-left: 400px;
-    /* margin-top: 30px !important; */
     line-height: 130px;
     font-size: xx-large;
     font-family: sans-serif;

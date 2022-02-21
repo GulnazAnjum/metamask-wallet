@@ -3,12 +3,7 @@ import { Button } from "react-bootstrap";
 import {Link} from "react-router-dom"
 import { useNavigate } from "react-router-dom";
 import "./Ending.css";
-
-
-
 const Ending = () => {
-
-  
   const [show, setShow] = useState();
   const [disel, setDisel] = useState();
   const [humble, setHumble] = useState("");

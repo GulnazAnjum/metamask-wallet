@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    /* box-sizing: border-box; */
+   
 }
 
 
@@ -70,7 +70,7 @@
     margin-right: 10px;
     margin-top: 1px;
     margin-left: 10px;
-    /* float: left; */
+   
 }
 
 .Right-Button button:hover {

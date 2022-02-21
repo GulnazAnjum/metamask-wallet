@@ -1,20 +1,14 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import { Routing } from "../Tokens/Routing";
 import Buy from "./Page/Buy";
 import Exchange from "./Page/Exchange";
 import Recive from "./Page/Recive";
 import {NewSend} from "./Page/NewSend";
 import Swap from "./Page/Swap";
-// import NFts from "../Tokens/NFts"
 import TestPage from "./TestPage";
-
-// import TokensNft from "../Tokens/TokensNft";
-
  export const TestHome = () => {
   return (
     <div>
-    {/* <TokensNft /> */}
       <BrowserRouter>
         <Routes>
           <Route exact path="/send" element={<NewSend />} />

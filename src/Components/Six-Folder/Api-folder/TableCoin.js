@@ -3,9 +3,9 @@ import Coinrow from "./Coinrow"
 const titles= ['#','Coin','Price'];
 
 const TableCoin = ({coins,search}) => {
-//    const filteredCoins= coins.filter((coin)=>
-//    coin.name.toLowerCase().includes(search.toLowerCase())|
-//     coin.symbol.toLowerCase().includes(search.toLowerCase()))
+   const filteredCoins= coins.filter((coin)=>
+   coin.name.toLowerCase().includes(search.toLowerCase())|
+    coin.symbol.toLowerCase().includes(search.toLowerCase()))
   return (
     
   <table className='table table mt-4 '>
@@ -20,7 +20,7 @@ const TableCoin = ({coins,search}) => {
       </tr>
       </thead>
        <tbody>
-{coins.map((coin,index)=>(
+{filteredCoins.map((coin,index)=>(
    <Coinrow coin={coin} key={index} index={index+1}/> 
 ))}
        </tbody>   

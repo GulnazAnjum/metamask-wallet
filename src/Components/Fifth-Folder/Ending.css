@@ -54,14 +54,10 @@
     background-color: #0fb9b1;
 }
 
-/* .Body2-Counter {
-    position: absolute;
-    right: 29rem;
-    top: 8rem;
-} */
+
 .Body2-Counter {
 
-    margin-top: 50px;
+    margin-top: 30px;
     width: 500px;
     height: auto;
     margin-left: 70px;
@@ -70,9 +66,10 @@
 }
 
 .Body2-Counter button {
-    /* width: 50px;
-    height: 30px; */
+     width: 80px;
+    height:auto;
     padding: 7px;
+    background-color: #EFEFEF;
 
 }
 
@@ -225,7 +222,7 @@
     }
 
     .Body2-Counter button {
-        padding: 7px;
+        padding: 5px;
     }
 
     /* click button code end here */
@@ -348,7 +345,7 @@
     }
 
     .Body2-Counter button {
-        padding: 4px;
+        padding: 2px;
     }
 
     /* click button code end here */

@@ -51,26 +51,30 @@
     justify-content: center;
     margin-top: 20px;
 }
-/* .Amount-Input{
 
-} */
 .Input-Border{
     width: 400px;
     height: 60px;
     border-radius: 10px;
     text-align: left;  
-    border:2px solid #3498db ; 
+    border:2px solid #3498db ;
+    display: flex; 
+    top: 40px;
+  
 }
 .Border-text{
     margin-left: 20px;
     color: #3498db;
     font-weight: 700;
+    margin-top: -20px;
+  
 
 }
 .Amount-Input{
     width: 280px;
     border: none;
     outline: none;
+    
 }
 .Max-Button{
     width: 50px;
@@ -79,6 +83,7 @@
     background:none;
     font-weight: 900;
     color: #3498db; 
+    margin-left:-60px;
 }
 .USDT-Button{
     width: 50px;
@@ -87,4 +92,5 @@
     background:none;
     font-weight: 900;
     color: #3498db; 
+    margin-left: 20px;
 }
