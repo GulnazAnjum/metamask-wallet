@@ -16,7 +16,6 @@ const TableCoin = ({coins,search}) => {
               <td key={index}>{title}</td>
           ))
       }
-        
       </tr>
       </thead>
        <tbody>

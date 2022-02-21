@@ -1,13 +1,14 @@
 import React from "react";
+import {Link} from "react-router-dom"
 import "./Token.css";
 
 const Token = () => {
   return (
     <div>
       <div className="Bitcoin-Container">
-        <i class="fab fa-btc Bitcoin-Icon"></i>
+      <Link to="/Bitcoin"> <i class="fab fa-btc Bitcoin-Icon"></i></Link> 
         <div className="Bitcoin-Content">
-          <b>Bitcoin</b>
+        <Link to="/Bitcoin"> <b>Bitcoin</b></Link>
           <p>$43,110.57+6.18%</p>
         </div>
 
@@ -18,9 +19,9 @@ const Token = () => {
       <hr />
 
       <div className="Ethereum-Container">
-        <i class="fab fa-ethereum Ethereum-Icon"></i>
+       <Link to="/Etherium"> <i class="fab fa-ethereum Ethereum-Icon"></i></Link>
         <div className="Ethereum-Content">
-          <b>Ethereum</b>
+        <Link to="/Etherium"> <b>Ethereum</b></Link>
           <p>$3,153.04+5.36%</p>
         </div>
 
@@ -33,9 +34,9 @@ const Token = () => {
       {/* green bitcoin code start here */}
 
       <div className="BitcoinCash-Container">
-        <i class="fab fa-btc BitcoinCash-Icon"></i>
+       <Link to="/BitcoinCash"> <i class="fab fa-btc BitcoinCash-Icon"></i></Link>
         <div className="BitcoinCash-Content">
-          <b>Bitcoin Cash</b>
+        <Link to="/BitcoinCash"> <b>Bitcoin Cash</b></Link>
           <p>$3,153.04+5.36%</p>
         </div>
 
@@ -47,15 +48,15 @@ const Token = () => {
 
       {/* bnb coin code start here */}
       <div className="Bnb-Container">
-        <img
+       <Link to="/BNB"> <img
           src="./Images/smartchain.png.jpg"
           alt=""
           height={50}
           width={50}
           className="Bnb-Icon"
-        />
+        /></Link>
         <div className="Bnb-Content">
-          <b>BNB</b>
+        <Link to="/BNB"> <b>BNB</b></Link>
           <p>$3,153.04+5.36%</p>
         </div>
         <div className="Bnb-Amount">
@@ -66,15 +67,15 @@ const Token = () => {
 
       {/* smart chain coin code start here */}
       <div className="SmartChain-Container">
-        <img
+       <Link to="/SmartChain"> <img
           src="./Images/smartchain.png.jpg"
           alt=""
           height={50}
           width={50}
           className="SmartChain-Icon"
-        />
+        /></Link>
         <div className="SmartChain-Content">
-          <b>Smart Chain</b>
+        <Link to="/SmartChain">  <b>Smart Chain</b></Link>
           <p>$3,153.04+5.36%</p>
         </div>
         <div className="SmartChain-Amount">

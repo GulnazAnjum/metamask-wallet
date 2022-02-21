@@ -5,7 +5,7 @@ import "./Account.css"
  const Account = () => {
 let history=useNavigate();
 const ButtonTow =()=>{
- history("/ending")
+ history("/Index")
 
 } 
 
