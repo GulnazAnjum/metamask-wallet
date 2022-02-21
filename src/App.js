@@ -16,6 +16,10 @@ import Password from './Components/Second-folder/Password';
  import CreateAccount from './Components/ProfilePages/CreateAccount';
  import ImportAccount from './Components/ProfilePages/ImportAccount';
  import Settings from './Components/ProfilePages/Settings';
+
+ import Generalpage from "./Components/ProfilePages/SettingsPage/Generalpage";
+import NetworksPage from "./Components/ProfilePages/SettingsPage/NetworksPage";
+import AboutPage from "./Components/ProfilePages/SettingsPage/AboutPage";
  
 function App() {
   return (
@@ -38,6 +42,12 @@ function App() {
           <Route exact path="/createaccount" element={<CreateAccount />} />
           <Route exact path="/importaccount" element={<ImportAccount />} />
           <Route exact path="/settings" element={<Settings />} />
+
+          
+          <Route exact path="/aboutpage" element={<AboutPage />} />
+          <Route exact path="/generalpage" element={<Generalpage />} />
+          <Route exact path="/networkpage" element={<NetworksPage />} />
+
         </Routes>
       </BrowserRouter> 
      </div> 
