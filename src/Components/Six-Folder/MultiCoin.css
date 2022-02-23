@@ -43,7 +43,7 @@
 }
 
 .Notification-Icon-Container {
-    width: 700px;
+    width: 400px;
 }
 
 .Notification-Icon {
@@ -75,6 +75,7 @@
     color: white;
     line-height: 83px;
     cursor: pointer;
+    margin-right:190px;
 }
 
 
@@ -93,7 +94,7 @@
 
 #Content-icon-buy {
     color: #ffff;
-    margin-top: 10px;
+    margin-top: 1git add .0px;
 }
 
 
@@ -225,5 +226,23 @@
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
-
-
+.Account1{
+    color: white;
+    margin-top: 20px;
+}
+/* #openModal{
+ width: 400px;
+ height: 300px;
+ margin-left: 300px;
+ margin-top: 500px;
+} */
+/* #openModal{
+    display: none;
+}
+.Side-DropDown{
+    width:auto;
+    display: inline-block;
+}
+.Side-DropDown:hover #openModal{
+  display: block;
+} */

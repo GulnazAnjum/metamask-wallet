@@ -1,3 +1,97 @@
+// import React, { useState } from "react";
+// import { Button } from "react-bootstrap";
+// import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
+// import { Link } from "react-router-dom"
+// import { useNavigate } from "react-router-dom";
+// import TestPage from "../Six-Folder/TestPage";
+// import "./Ending.css";
+// const Ending = () => {
+//   const [activeNumber, setActiveNumber] = useState([]);
+//   const handleFilterCoin = (number) => {
+//     setActiveNumber((oldData) => {
+//       return [
+//         ...oldData,
+//         number
+//       ]
+//     });
+//   }
+//   const name = "Your Secret Recovery Phrase makes it easy to";
+//   const name1 = "Your Secret Recovery Phrase makes it easy to back up and restore your ";
+//   const array = name.split(' ');
+//   const result = array.length;
+//   console.log('length is', result);
+
+//   const percentagebutton = array.map(number => {
+//     return (
+//       <input
+//         onClick={() => handleFilterCoin(number)}
+//         type="submit"
+//         value={number}
+//         className="Button"
+//       />
+//     )
+//   });
+//   const successhandle = () => {
+//     <TestPage />
+//   }
+//   const handlenextbutton = () => {
+//     if (name === name1) {
+//       alert("correct Secret Phrase");
+     
+//     }
+//     else {
+//       alert("incorrect Secret Phrase");
+//     }
+//   }
+//   return (
+//     // header logo code start here
+//     <div className="main-counter">
+//       <div className="Body-counter">
+//         <img src="./images/trodex1.png" alt="" className="Photo" />
+//       </div>
+
+//       {/* right side button code start here */}
+//       <div className="Button-Counter">
+//         <button>
+//           <span className="Dotted"></span>Ethereum Mainnet
+//         </button>
+//       </div>
+
+//       {/* main content code start here */}
+//       <div className="Border">
+//         <h2 className="Head2">Confirm your Secret Recovery Phrase</h2>
+//         <p className="Paragraph">
+//           Please select each phrase in order to make sure it is correct.
+//         </p>
+
+//         <div className="Body2-Counter">
+//           <label>{activeNumber}</label>
+//           {console.log(activeNumber)}
+//         </div>
+
+//         {/* last button code start here */}
+//         <div className="Boxes">
+//           {percentagebutton}
+//         </div>
+//         {/* footer button code start here */}
+//         <div className="end-Buttons">
+//           <Button variant="outline-primary" className="one-Button">
+//             Remind me later
+//           </Button>
+//           <Button variant="primary" className="two-Button" onClick={() => handlenextbutton()}>
+//             Next
+//           </Button>
+//           <Link to='/testpage'><Button variant="primary" className="two-Button">
+//             Next
+//           </Button>
+//           </Link>
+
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+// export default Ending;
 import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 import {Link} from "react-router-dom"
@@ -157,3 +251,4 @@ const Ending = () => {
   );
 };
 export default Ending;
+

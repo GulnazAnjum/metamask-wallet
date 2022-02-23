@@ -11,6 +11,8 @@ import Password from './Components/Second-folder/Password';
  import Recive from './Components/Six-Folder/Page/Recive';
  import Buy from './Components/Six-Folder/Page/Buy';
  import Swap from './Components/Six-Folder/Page/Swap';
+ import AddToken from './Components/Six-Folder/Page/AddToken';
+import NftsToken from './Components/Six-Folder/Page/NftsToken';
  import NewSend from './Components/Six-Folder/Page/NewSend';
  import Exchange from './Components/Six-Folder/Page/Exchange';
  import CreateAccount from './Components/ProfilePages/CreateAccount';
@@ -25,6 +27,7 @@ import SmartChain from "./Components/Tokens/SmartChain";
 import BitcoinCash from "./Components/Tokens/BitcoinCash";
 import BNB from "./Components/Tokens/BNB"
 import Index from "./Components/index/Index";
+import NewAccount from "./Components/ProfilePages/SettingsPage/NewAccount";
  
 function App() {
   return (
@@ -45,8 +48,12 @@ function App() {
           <Route exact path="/exchange" element={<Exchange />} />
           <Route exact  path="/Receive" element={<Recive />} />
           <Route exact  path="/swap" element={<Swap />} />
+
+          <Route exact path="/addtoken" element={<AddToken />} />
+          <Route exact path="/nftstoken" element={<NftsToken />} />
           <Route exact path="/createaccount" element={<CreateAccount />} />
           <Route exact path="/importaccount" element={<ImportAccount />} />
+          <Route exact path="/NewAccount" element={<NewAccount />} />
           <Route exact path="/settings" element={<Settings />} />
           <Route exact path="/aboutpage" element={<AboutPage />} />
           <Route exact path="/generalpage" element={<Generalpage />} />
