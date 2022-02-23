@@ -1,9 +1,14 @@
+
 import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
-import "./Navigat.css";
+// import "./Navigat.css";
+import "./AssetsSend.css"
+const AssetsSend = () => {
 
-const NewSend = () => {
+    const handleNextButton=()=>{
+      alert("Congratulation")
+    }
   return (
     <div>
 
@@ -48,6 +53,7 @@ const NewSend = () => {
             type="text"
             className="Assets-Input"
           />
+          
         </div>
       </div>
 
@@ -89,7 +95,7 @@ const NewSend = () => {
                         <Button variant="outline-primary" className="firstButton">
                             cancel
                         </Button>
-                        <Button variant="primary" className="secondButton" >
+                        <Button variant="primary" className="secondButton" onClick={()=>handleNextButton()} >
                             Next
                         </Button>
 
@@ -98,4 +104,4 @@ const NewSend = () => {
     </div>
   );
 };
-export default NewSend;
+export default AssetsSend;

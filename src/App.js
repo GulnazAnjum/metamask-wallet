@@ -28,6 +28,8 @@ import BitcoinCash from "./Components/Tokens/BitcoinCash";
 import BNB from "./Components/Tokens/BNB"
 import Index from "./Components/index/Index";
 import NewAccount from "./Components/ProfilePages/SettingsPage/NewAccount";
+import Assets from "./Components/Tokens/Assets";
+import AssetsSend from "./Components/Tokens/AssetsSend";
  
 function App() {
   return (
@@ -48,7 +50,6 @@ function App() {
           <Route exact path="/exchange" element={<Exchange />} />
           <Route exact  path="/Receive" element={<Recive />} />
           <Route exact  path="/swap" element={<Swap />} />
-
           <Route exact path="/addtoken" element={<AddToken />} />
           <Route exact path="/nftstoken" element={<NftsToken />} />
           <Route exact path="/createaccount" element={<CreateAccount />} />
@@ -58,15 +59,20 @@ function App() {
           <Route exact path="/aboutpage" element={<AboutPage />} />
           <Route exact path="/generalpage" element={<Generalpage />} />
           <Route exact path="/networkpage" element={<NetworksPage />} />
-          <Route exact path="/Bitcoin" element={<Bitcoin />} />
+          {/* <Route exact path="/Bitcoin" element={<Bitcoin />} /> */}
+          <Route exact path="/AssetsSend" element={<AssetsSend />}/>
+          
+          <Route exact path="/Assets" element={<Assets />} />
           <Route exact path="/Etherium" element={<Etherium />} />
           <Route exact path="/SmartChain" element={<SmartChain />} />
           <Route exact path="/BitcoinCash" element={<BitcoinCash />} />
           <Route exact path="/BNB" element={<BNB/>} />
          
+         
 
         </Routes>
       </BrowserRouter> 
+      {/* <NewAccount/> */}
      </div> 
   );
 }

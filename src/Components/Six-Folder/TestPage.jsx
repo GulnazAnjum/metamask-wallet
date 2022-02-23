@@ -7,7 +7,7 @@ import { Modal, Button } from "react-bootstrap";
 function MyVerticallyCenteredModal(props) {
   const [count, setCount] = useState(["Account"]);
   const addItem = () => {
-    setCount([...count, count + 1]);
+    setCount([...count,"Account"]);
   };
   return (
     <Modal
@@ -23,13 +23,13 @@ function MyVerticallyCenteredModal(props) {
       </Modal.Header>
       <Modal.Body>
         <div>
-          {count.map((count) => {
-            return <h6>Account{1}</h6>;
+          {count.map((item) => {
+            return <h6> {item}</h6>;
           })}
           {/* <p>Account{count}</p> */}
           <Button
             class="primary"
-            onClick={() => addItem(addItem + 1)}
+            onClick={() => setCount([...count, `Account ${count.length}`])}
             className="Accountbutton"
           >
             Create New Account
@@ -37,14 +37,15 @@ function MyVerticallyCenteredModal(props) {
           <Button className="AccountButton2">Import an Account</Button>
         </div>
       </Modal.Body>{" "}
-      {/* <Modal.Footer>
+      <Modal.Footer style={{marginRight:"100px"}}>
         <Button onClick={props.onHide}>Close</Button>
-      </Modal.Footer> */}
+      </Modal.Footer>
     </Modal>
   );
 }
 const TestPage = () => {
   const [modalShow, setModalShow] = React.useState(true);
+  // const [count,setCount]=useState(0);
   return (
     <>
       <div>
@@ -86,7 +87,9 @@ const TestPage = () => {
           </div>
           <div className="Link-Icons-Container">
             <h2 className="Icon-Header">Multi-Coin Wallet 1</h2>
+            {/* <h3 className="Account1">`${count.lastIndexOf()}`</h3> */}
             <h3 className="Account1">Account 1</h3>
+             <h3 className="Account1"></h3> 
             <div className="Main-Icons">
               <Link to="/send" className="Send-Icon">
                 <i id="Content-icon-buy" className="material-icons">

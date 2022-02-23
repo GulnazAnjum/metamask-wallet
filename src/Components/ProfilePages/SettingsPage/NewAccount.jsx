@@ -10,6 +10,7 @@ const NewAccount = () => {
         <p>Account{count}</p>
             <Button class="primary" onClick={()=>setCount(count+1)} className="Accountbutton">Create New Account</Button>
             <Button  className='AccountButton2'>Import an Account</Button>
+            
         </div>
     );
 };

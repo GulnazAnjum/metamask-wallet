@@ -6,9 +6,9 @@ const Token = () => {
   return (
     <div>
       <div className="Bitcoin-Container">
-      <Link to="/Bitcoin"> <i class="fab fa-btc Bitcoin-Icon"></i></Link> 
+      <Link to="/Assets"> <i class="fab fa-btc Bitcoin-Icon"></i></Link> 
         <div className="Bitcoin-Content">
-        <Link to="/Bitcoin"> <b>Bitcoin</b></Link>
+        <Link to="/Assets"> <b>Bitcoin</b></Link>
           <p>$43,110.57+6.18%</p>
         </div>
 
