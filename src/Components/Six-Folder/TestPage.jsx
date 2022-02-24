@@ -91,11 +91,11 @@ const TestPage = () => {
             <h3 className="Account1">Account 1</h3>
              <h3 className="Account1"></h3> 
             <div className="Main-Icons">
-              <Link to="/send" className="Send-Icon">
+              <Link to="/AssetsSend" className="Send-Icon">
                 <i id="Content-icon-buy" className="material-icons">
                   file_upload
                 </i>
-                <Link to="/">
+                <Link to="/AssetsSend">
                   <b id="Content-icon-buy">Send</b>
                 </Link>
               </Link>
