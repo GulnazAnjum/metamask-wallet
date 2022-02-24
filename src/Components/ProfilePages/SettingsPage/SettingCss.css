@@ -74,13 +74,13 @@
 }
 .firstButton {
     width: 200px;
-    height: 70px;
+    height: 50px !important;
     border-radius: 60px !important;
     background-color: #EFEFEF !important;
 }
 .scondaryButton{
   width: 200px;
-  height: 70px;
+  height: 50px !important;
   border-radius: 60px !important;
   border: 1px solid #4398e1;
   background: #4398e1;

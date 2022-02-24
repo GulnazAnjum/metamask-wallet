@@ -131,3 +131,8 @@
  .SmartChain-Content p{
      padding:12px;
  }
+.Links-Content{
+    text-decoration: none;
+    color: black;
+}
+ 

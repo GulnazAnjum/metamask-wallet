@@ -1,6 +1,6 @@
 import React from 'react'
 import Coinrow from "./Coinrow"
-const titles= ['#','Coin','Price'];
+const titles= ['#','Coin', 'name','Price'];
 
 const TableCoin = ({coins,search}) => {
    const filteredCoins= coins.filter((coin)=>

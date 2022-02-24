@@ -158,14 +158,14 @@
     font-size: 22px;
     position: relative;
     left: 8px;
-    bottom: 10px;
+    bottom: 60px;
 }
 
 .Buy-Icon b {
     text-align: center;
     font-size: 15px;
-    position: relative;
-    top: 14px;
+    /* position: relative; */
+    /* top: 14px; */
     right: 14px;
 }
 
@@ -246,3 +246,19 @@
 .Side-DropDown:hover #openModal{
   display: block;
 } */
+
+
+
+
+.HistoryContent{
+   padding-top: 10px;
+   margin-top: -700px !important;
+   color: white;
+}
+
+
+.HistoryIcon{
+    color: white !important;
+  padding-bottom: 40px;
+    
+}

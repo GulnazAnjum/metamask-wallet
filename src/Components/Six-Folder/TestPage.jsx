@@ -108,8 +108,8 @@ const TestPage = () => {
               </Link>
 
               <Link target="_self" to="/buy" className="Buy-Icon">
-                <i id="Content-icon-buy" class="fas fa-tag"></i>
-                <b id="Content-icon-buy">History</b>
+                <i className="fas fa-tag HistoryIcon"></i>
+                <b className="HistoryContent">History</b>
               </Link>
 
               <Link target="_self" to="/swap" className="Swap-Icon">

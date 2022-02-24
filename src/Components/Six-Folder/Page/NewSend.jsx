@@ -10,7 +10,7 @@ const NewSend = () => {
     
       <div className="Send-Compon">
         <Link to="/TestPage">
-          <i id="content-icon-01" className="fas fa-arrow-left Send-Icon "></i> </Link>
+          <i id="content-icon" className="fas fa-arrow-left Send-Icon "></i> </Link>
           <input
           type="text"
           placeholder="Search-Send "
