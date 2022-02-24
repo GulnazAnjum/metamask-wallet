@@ -1,7 +1,7 @@
-#Back-Compon{
+ #Back-Compon{
     color:white;
     text-decoration:none;
-}
+} 
 /* first input code start here */
 .Recipient-Add{
    width: 100%;
@@ -12,7 +12,7 @@
 .Scaner-Input{
     width:400px;
     height:60px;
-    border: 2px solid silver;
+    border: 2px solid skyblue;
     border-radius: 9px;
     /* padding: 12px; */
 }
@@ -108,5 +108,5 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
+} 
 

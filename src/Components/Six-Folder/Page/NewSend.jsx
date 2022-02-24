@@ -38,6 +38,21 @@ const NewSend = () => {
         </div>
       </div>
 
+
+
+      <div className="Amount-Input-Container">    
+          <fieldset className="Input-Border">
+            {/* <legend className="Border-text">Amount USDT</legend> */}
+                  <input type="text"
+                  placeholder="Insufficient funds for gas"
+                   className="Amount-Input"/>
+                  {/* <button className="Max-Button">MAX</button>
+                  <button className="USDT-Button">USDT</button> */}
+          </fieldset>
+      </div>
+
+      
+
       <div className="assetsContainer">
      
       <div className="Recipient-Add">
@@ -46,6 +61,9 @@ const NewSend = () => {
         
           <input
             type="text"
+            placeholder="Balance:
+0
+ETH"
             className="Assets-Input"
           />
         </div>
@@ -63,11 +81,15 @@ const NewSend = () => {
         
           <input
             type="text"
-            
+                       placeholder="0
+ETH
+
+$0.00
+USD"
             className="Assets-Input"
           />
         </div>
-      </div>
+      </div> 
 
 
       
@@ -75,14 +97,7 @@ const NewSend = () => {
       {/* first input code end here */}
 
       {/* second input code start here */}
-      <div className="Amount-Input-Container">    
-          <fieldset className="Input-Border">
-            <legend className="Border-text">Amount USDT</legend>
-                  <input type="text" className="Amount-Input"/>
-                  <button className="Max-Button">MAX</button>
-                  <button className="USDT-Button">USDT</button>
-          </fieldset>
-      </div>
+      
 
 
       <div className="lastButtons">

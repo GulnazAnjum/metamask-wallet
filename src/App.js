@@ -34,7 +34,7 @@ import AssetsSend from "./Components/Tokens/AssetsSend";
 function App() {
   return (
     <div className="App">
-           {/* <Index/> */}
+          
      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Singin/>} />
@@ -72,7 +72,7 @@ function App() {
 
         </Routes>
       </BrowserRouter> 
-      {/* <NewAccount/> */}
+     
      </div> 
   );
 }
