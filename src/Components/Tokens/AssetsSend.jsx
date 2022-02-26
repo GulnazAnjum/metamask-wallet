@@ -86,9 +86,10 @@ const AssetsSend = () => {
       </div>
      
       <div className="lastButtons">
-        <Button variant="outline-primary" className="firstButton">
+      <Link to='/TestPage'> <Button variant="outline-primary" className="firstButton">
           cancel
         </Button>
+        </Link>
         <Button variant="primary" className="secondButton" onClick={() => handleNextButton()} >
           Next
         </Button>

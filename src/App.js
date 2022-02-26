@@ -1,15 +1,16 @@
 
-import Child from "./Components/Third-Folder/Child"
+
  import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
-import Singin from './Components/First-Folder/Singin';
-import Password from './Components/Second-folder/Password';
- import Home from './Components/Third-Folder/Home';
- import Account from "./Components/Fourth-Folder/Account";
- import Ending  from './Components/Fifth-Folder/Ending';
+
+import Password from './Components/Confirm-Password/Password';
+import SecondPassword from "./Components/Password/SecondPassword"
+
+ import Account from "./Components/Recovery/Account";
+ import Ending  from './Components/Confirm-Recovery/Ending';
  import TestPage from './Components/Six-Folder/TestPage';
  import Recive from './Components/Six-Folder/Page/Recive';
- import Buy from './Components/Six-Folder/Page/Buy';
+ import History from './Components/Six-Folder/Page/History';
  import Swap from './Components/Six-Folder/Page/Swap';
  import AddToken from './Components/Six-Folder/Page/AddToken';
 import NftsToken from './Components/Six-Folder/Page/NftsToken';
@@ -37,16 +38,17 @@ function App() {
           
      <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Singin/>} />
-          <Route path="/password" element={<Password/>} />
-          <Route path="/hhme" element={<Child/>} />
-          <Route path="/blank" element={<Home/>} />
+      
+          
+          <Route path="/" element={<Password/>} />
+          <Route path="/SecondPassword" element={<SecondPassword/>} />
           <Route path="/account" element={<Account/>} />
-          <Route path="/Index" element={<Index/>} />
-          <Route path="/ending" element={<Ending/> } /> 
-          <Route path="/testpage" element={<TestPage/> } /> 
+          <Route path="/ending" element={<Ending/> } />
+           <Route path="/Index" element={<Index/>} />  
+          
+          <Route path="/Testpage" element={<TestPage/> } /> 
           <Route exact path="/send" element={<NewSend />} />
-          <Route exact  path="/buy" element={<Buy />} />
+          <Route exact  path="/History" element={<History />} />
           <Route exact path="/exchange" element={<Exchange />} />
           <Route exact  path="/Receive" element={<Recive />} />
           <Route exact  path="/swap" element={<Swap />} />
@@ -61,7 +63,6 @@ function App() {
           <Route exact path="/networkpage" element={<NetworksPage />} />
           {/* <Route exact path="/Bitcoin" element={<Bitcoin />} /> */}
           <Route exact path="/AssetsSend" element={<AssetsSend />}/>
-          
           <Route exact path="/Assets" element={<Assets />} />
           <Route exact path="/Etherium" element={<Etherium />} />
           <Route exact path="/SmartChain" element={<SmartChain />} />

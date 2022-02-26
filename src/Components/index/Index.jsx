@@ -6,7 +6,7 @@ const Index = () => {
     return (
         <div>
      <Button variant="primary" className='importaccount'>Import Wallet</Button>
-<Link to="/Ending"> <Button variant="primary" className='createaccount'>Create new Wallet</Button></Link> 
+<Link to="/Testpage"> <Button variant="primary" className='createaccount'>Create new Wallet</Button></Link> 
         </div>
     );
 };

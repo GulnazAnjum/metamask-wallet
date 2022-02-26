@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Buy from "./Page/Buy";
+import Buy from "./Page/History";
 import Exchange from "./Page/Exchange";
 import Recive from "./Page/Recive";
 import {NewSend} from "./Page/NewSend";
@@ -12,7 +12,7 @@ import TestPage from "./TestPage";
       <BrowserRouter>
         <Routes>
           <Route exact path="/send" element={<NewSend />} />
-          <Route exact  path="/buy" element={<Buy />} />
+          <Route exact  path="/buy" element={<History />} />
           <Route exact path="/exchange" element={<Exchange />} />
           <Route exact  path="/Receive" element={<Recive />} />
           <Route exact  path="/swap" element={<Swap />} />

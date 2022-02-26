@@ -3,48 +3,48 @@ import { Link } from "react-router-dom";
 import TokensNft from "../Tokens/TokensNft";
 import { useState } from "react";
 import "./MultiCoin.css";
-import { Modal, Button } from "react-bootstrap";
-function MyVerticallyCenteredModal(props) {
-  const [count, setCount] = useState(["Account"]);
-  const addItem = () => {
-    setCount([...count,"Account"]);
-  };
-  return (
-    <Modal
-      {...props}
-      size="lg"
-      aria-labelledby="contained-modal-title-vcenter"
-      centered
-    >
-      <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          New Account
-        </Modal.Title>
-      </Modal.Header>
-      <Modal.Body>
-        <div>
-          {count.map((item) => {
-            return <h6> {item}</h6>;
-          })}
-          {/* <p>Account{count}</p> */}
-          <Button
-            class="primary"
-            onClick={() => setCount([...count, `Account ${count.length}`])}
-            className="Accountbutton"
-          >
-            Create New Account
-          </Button>
-          <Button className="AccountButton2">Import an Account</Button>
-        </div>
-      </Modal.Body>{" "}
-      <Modal.Footer style={{marginRight:"100px"}}>
-        <Button onClick={props.onHide}>Close</Button>
-      </Modal.Footer>
-    </Modal>
-  );
-}
+// import { Modal, Button } from "react-bootstrap";
+// function MyVerticallyCenteredModal(props) {
+  // const [count, setCount] = useState(["Account"]);
+  // const addItem = () => {
+  //   setCount([...count,"Account"]);
+  // };
+//   return (
+//     <Modal
+//       {...props}
+//       size="lg"
+//       aria-labelledby="contained-modal-title-vcenter"
+//       centered
+//     >
+//       <Modal.Header closeButton>
+//         <Modal.Title id="contained-modal-title-vcenter">
+//           New Account
+//         </Modal.Title>
+//       </Modal.Header>
+//       <Modal.Body>
+//         <div>
+//           {count.map((item) => {
+//             return <h6> {item}</h6>;
+//           })}
+//           {/* <p>Account{count}</p> */}
+//           <Button
+//             class="primary"
+//             onClick={() => setCount([...count, `Account ${count.length}`])}
+//             className="Accountbutton"
+//           >
+//             Create New Account
+//           </Button>
+//           <Button className="AccountButton2">Import an Account</Button>
+//         </div>
+//       </Modal.Body>{" "}
+//       <Modal.Footer style={{marginRight:"100px"}}>
+//         <Button onClick={props.onHide}>Close</Button>
+//       </Modal.Footer>
+//     </Modal>
+//   );
+// }
 const TestPage = () => {
-  const [modalShow, setModalShow] = React.useState(true);
+  // const [modalShow, setModalShow] = React.useState(true);
   // const [count,setCount]=useState(0);
   return (
     <>
@@ -66,29 +66,29 @@ const TestPage = () => {
                   <a href="/createaccount" id="Create-Account-Link">
                     Create Account
                   </a>
-                  <a
+                  {/* <a
                     href=""
                     onClick={() => setModalShow(true)}
                     id="openModal"
                     className="New-Account-Link"
-                  >
-                    New Account
-                  </a>
+                  > */}
+                    {/* New Account
+                  </a> */}
                 </div>
 
                 <a href="/importaccount">import Account</a>
                 <a href="/settings">Settings</a>
-                <MyVerticallyCenteredModal
+                {/* <MyVerticallyCenteredModal
                   show={modalShow}
                   onHide={() => setModalShow(false)}
-                />
+                /> */}
               </div>
             </div>
           </div>
           <div className="Link-Icons-Container">
             <h2 className="Icon-Header">Multi-Coin Wallet 1</h2>
             {/* <h3 className="Account1">`${count.lastIndexOf()}`</h3> */}
-            <h3 className="Account1">Account 1</h3>
+            <h3 className="Account1"> Main Account</h3>
              <h3 className="Account1"></h3> 
             <div className="Main-Icons">
               <Link to="/AssetsSend" className="Send-Icon">
