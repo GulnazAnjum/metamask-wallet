@@ -1,6 +1,7 @@
 import React from "react";
 import "./SettingCss.css";
 import { Button, Card, InputGroup } from "react-bootstrap";
+import { Link } from "react-router-dom";
 const NetworksPage = () => {
     return (
         <>
@@ -77,9 +78,9 @@ const NetworksPage = () => {
                         />
                     </div>
                     <div className="cancelSaveStyle">
-                        <Button variant="outline-primary" className="cancelButton">
+                        <Link to='/testpage'><Button variant="outline-primary" className="cancelButton">
                             cancel
-                        </Button>
+                        </Button></Link>
                         <Button variant="primary" className="saveButton" >
                             Save
                         </Button>

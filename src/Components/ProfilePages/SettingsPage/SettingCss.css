@@ -215,7 +215,7 @@ background: #4398e1;
   #help:checked ~ .list label.help,
   #code:checked ~ .list label.code,
   #about:checked ~ .list label.about{
-    color: #fff;
+    color: #0292f9;
   }
   .content .list label:hover{
     color: #6d50e2;

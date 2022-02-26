@@ -6,8 +6,8 @@ import Nfts from '../Tokens/NFts';
 
 const TokensNft = () => {
   return (
-   
-    <div className="app">
+   <div className="wrapper">
+      <div className="app">
       <Tabs defaultIndex={0} style={{ dispaly: "flex" }}>
         <TabList style={{ listStyle: "none", dispaly: "flex" }}>
           <Tab
@@ -40,7 +40,10 @@ const TokensNft = () => {
           <Nfts />
         </TabPanel>
       </Tabs>
-    </div>
+   </div>
+     </div>
+     
+   
   );
 };
 export default TokensNft;

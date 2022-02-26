@@ -8,7 +8,7 @@ const History = () => {
     <Link to="/TestPage">    <i id="content-icon-01" className="fas fa-arrow-left Send-Icon "></i></Link>
         <input
           type="text"
-          placeholder="Search-His "
+          placeholder="Search-Buy "
           style={{ Color: "white" }}
         />
       </div> */}

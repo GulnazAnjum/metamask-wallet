@@ -5,8 +5,8 @@ import './Index.css'
 const Index = () => {
     return (
         <div>
-     <Button variant="primary" className='importaccount'>Import Wallet</Button>
-<Link to="/Testpage"> <Button variant="primary" className='createaccount'>Create new Wallet</Button></Link> 
+     <Link to="/account"><Button variant="primary" className='importaccount'>Import Wallet</Button></Link>
+<Link to="/ConfirmPassword"> <Button variant="primary" className='createaccount'>Create new Wallet</Button></Link> 
         </div>
     );
 };

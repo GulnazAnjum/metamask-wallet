@@ -7,7 +7,7 @@
 .APP {
     background-color: #0C2A38;
     width: 100%;
-    height: 100vh;
+    height: auto;
 }
 
 .Man-body {
@@ -15,16 +15,17 @@
     height: auto;
     display: flex;
     background-color: #0C2A38;
+    padding: 1rem;
 }
 
 .im {
-    width: 1190px;
+    width: 765px;
 }
 
 .im img {
     height: 48px;
     margin-top: 30px;
-    margin-left: 160px;
+    margin-left: 100px;
     white-space: 4px;
 
 }
@@ -67,14 +68,19 @@
     height: auto;
     display: flex;
     justify-content: center;
+    margin: 1rem;
 
+}
+.card{
+    padding: 1rem;
 }
 
 .Card-Form {
     width: 620px;
-    height:600px;
+    height:530px;
     border-radius: 20px !important;
     background-color: white;
+    margin-bottom: 3rem;
 
 }
 
@@ -87,7 +93,7 @@
 .Paragraph1 {
     background-color: white;
     width: 550px;
-    font-size: 18px;
+    font-size: 1rem;
     margin-top: 30px !important;
     margin-left: 30px;
     font-family: sans-serif;
@@ -116,24 +122,16 @@
 
 }
 .end-Content{
-   
-  
     background-color: white;
-   
     font-size: 17px;
-
-    
-  
-    padding: 20px;
-    margin-left: 47px;
-  
+    padding: 6px;
 }
 
 .Last-Buttons {
     display: flex;
     justify-content: center;
     background-color: white;
-    margin-top: 20px;
+    margin-top: 0.5rem;
 }
 
 .First-Button {
@@ -180,15 +178,23 @@
     .im img {
         height: 40px;
         margin-top: 30px;
-        margin-left: 20px;
+        margin-left: 2px;
     }
 
     .Button-Container Button {
-        width: 190px;
+        width: 174px;
         margin-left: 30px;
     }
 
+    .Card-Form {
+        width: 620px;
+        height: 590px;
+    } 
 
+    .Para-Container {
+        width: 92%;
+        margin-bottom: 1rem;
+    }
 
     .Paragraph1 {
         width: auto;

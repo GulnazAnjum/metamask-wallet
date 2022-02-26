@@ -21,13 +21,22 @@
     width:50%;
     float: right;
 }
+h5{
+  font-size: 1rem !important;
+}
+h4{
+  font-size: 1rem !important;
+}
+.standard-select{
+  font-size: 0.8rem !important;
+}
 .cardForm {
     width: 500px;
     height: 300px;
     border-radius: 20px !important;
     background-color:#fff;
     border: 1px solid #d2d8dd;
-    margin-top: 50px;
+    margin: 50px 20px;
 }
 .cardFormimport {
     width: 500px;
@@ -246,4 +255,17 @@
  }
  .cancelSaveStyle{
    margin-top: 20px;
+ }
+
+ @media screen and (max-width:420px) {
+
+  .cancelSaveStyle button{
+   width: 4rem;
+  }
+  .container{
+    width: 95% !important;
+  }
+  .middle-content {
+    display: inline-block !important;
+  }   
  }

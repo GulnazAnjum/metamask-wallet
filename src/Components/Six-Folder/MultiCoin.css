@@ -27,7 +27,6 @@
     font-size: 20px !important;
     margin-top: 11px;
     text-indent: 10px;
-    margin-left: 30px;
 }
 
 
@@ -48,7 +47,7 @@
 
 .Notification-Icon {
     font-size: 40px;
-    line-height: 90px;
+    line-height: 80px !important;
     margin-left: 40px;
     color: white;
     cursor: pointer;
@@ -57,9 +56,10 @@
 .Money-Counter {
     width: 700px;
     color: white;
-    /* margin-left: -300px; */
-
+    line-height: 5rem;    
+    margin-left: -4rem;
 }
+
 .Second-Link-Container{
     width:200px;
     margin-top: 50px;
@@ -75,7 +75,7 @@
     color: white;
     line-height: 83px;
     cursor: pointer;
-    margin-right:190px;
+    margin-right: 1rem !important;
 }
 
 
@@ -119,7 +119,7 @@
     font-size: 29px;
     position: relative;
     right: 10px;
-    top: 6px;
+    top: 0px !important; 
 }
 
 .Send-Icon b {
@@ -132,8 +132,7 @@
     width: 80px;
     display: block;
     text-decoration: none;
-    justify-content: center;
-    margin-top: 14px;
+    justify-content: center;   
 }
 
 .Receive-Icon>i {
@@ -148,8 +147,7 @@
     width: 80px;
     display: block;
     text-decoration: none;
-    justify-content: center;
-    margin-top: 60px;
+    justify-content: center;  
     margin-left:25px ;
    
 }
@@ -174,8 +172,7 @@
     width: 80px;
     display: block;
     text-decoration: none;
-    justify-content: center;
-    margin-top: 14px;
+    justify-content: center;   
 }
 
 .Swap-Icon>i {
@@ -248,7 +245,10 @@
 } */
 
 
-
+.modal-content {   
+    width: 95%;
+    height: 70vh;
+}
 
 .HistoryContent{
    padding-top: 10px;
@@ -261,4 +261,19 @@
     color: white !important;
   padding-bottom: 40px;
     
+}
+.footbtn{
+    display: flex;
+    flex-direction: row;
+}
+.Side-Bar-Button {
+    width: 700px;
+    text-align: right;
+}
+
+
+@media screen and (max-width:420px){
+    .Money-Counter{       
+        margin-left: 3rem;
+    }    
 }

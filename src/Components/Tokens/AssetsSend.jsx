@@ -11,8 +11,6 @@ const AssetsSend = () => {
   }
   return (
     <div>
-
-
       <div className="Send-Compon">
         <Link to="/TestPage">
           <i id="content-icon-01" className="fas fa-arrow-left Send-Icon "></i> </Link>
@@ -44,7 +42,7 @@ const AssetsSend = () => {
       </div>
 
       <div className="assetsContainer">
-        
+
       </div>
       <div className="assetsContainer">
 
@@ -73,7 +71,7 @@ const AssetsSend = () => {
           <div className="amountContainer">
             <div class="unit-input__inputs">
               <div class="unit-input__input-container">
-                <input type="number"  class="unit-input__input" placeholder="0" />
+                <input type="number" class="unit-input__input" placeholder="0" />
                 <div class="unit-input__suffix">bnb</div>
               </div>
               <div class="currency-input__conversion-component">No Conversion Rate Available</div>
@@ -81,15 +79,14 @@ const AssetsSend = () => {
 
           </div>
 
-         
+
         </div>
       </div>
-     
+
       <div className="lastButtons">
-      <Link to='/TestPage'> <Button variant="outline-primary" className="firstButton">
+        <Link to='/TestPage'><Button variant="outline-primary" className="firstButton">
           cancel
-        </Button>
-        </Link>
+        </Button></Link>
         <Button variant="primary" className="secondButton" onClick={() => handleNextButton()} >
           Next
         </Button>

@@ -42,11 +42,12 @@ const NewSend = () => {
 
       <div className="Amount-Input-Container">    
           <fieldset className="Input-Border">
-         
+            {/* <legend className="Border-text">Amount USDT</legend> */}
                   <input type="text"
                   placeholder="Insufficient funds for gas"
                    className="Amount-Input"/>
-                  
+                  {/* <button className="Max-Button">MAX</button>
+                  <button className="USDT-Button">USDT</button> */}
           </fieldset>
       </div>
 

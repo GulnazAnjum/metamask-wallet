@@ -57,10 +57,9 @@
 
 .Body2-Counter {
 
-    margin-top: 30px;
-    width: 500px;
-    height: auto;
-    margin-left: 70px;
+    margin: 10px;
+    width: 97%;
+    height: auto;   
     border: 2px solid black;
     padding: 20px;
 }
@@ -77,9 +76,9 @@
 
 .Border {
     height: 450px;
-    width: 40%;
+    width: 60%;
     border: 2px solid black;
-    margin-left: 440px;
+    margin: 0 auto;
     border-radius: 10px;
     margin-top: 90px;
     background-color: white;
@@ -600,11 +599,11 @@
     /* main card css start here */
     .Border {
         height: auto;
-        width: 50%;
+        width: 93%;
         border: 2px solid black;
         border-radius: 10px;
         margin-top: 90px;
-        margin-left: 120px;
+        margin-left: 15px;
         background-color: white;
         padding: 10px;
     }
@@ -621,7 +620,7 @@
     /* click button code start here */
     .Body2-Counter {
         margin-top: 50px;
-        width: 200px;
+        width: 19rem;
         height: auto;
         margin-left: 10px;
         padding: 20px;
@@ -649,7 +648,7 @@
     }
 
     .one-Button {
-        width: 110px;
+        width: 9rem;
         height: 40px;
         border-radius: 60px !important;
         background-color: #EFEFEF !important;
@@ -661,4 +660,64 @@
         border-radius: 60px !important;
         background-color: #4398e1 !important;
     }
+}
+
+
+
+/* -------------------ram--------------------- */
+@media only screen and (max-width:420px) {
+
+.Man-body {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: #0C2A38;
+    padding: 1rem;
+}
+
+.im {
+    width: 765px;
+}
+
+.im img {
+    height: 48px;
+    margin-top: 30px;
+}
+
+.Border{
+    margin-top: 0 !important;
+}
+
+.Button-Container {
+    border-radius: 20px;
+}
+
+.Button-Container Button {
+    width: 174px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+}
+
+.Button-Container Button:hover {
+    background-color: #0fb9b1;
+}
+
+.Dot {
+
+    height: 10px;
+    width: 10px;
+    background-color: rgb(9, 180, 32);
+    border-radius: 50%;
+    line-height: 30px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 1px;
+    margin-left: 10px;
+
+}
+
 }

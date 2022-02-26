@@ -185,7 +185,7 @@
    margin-top: 20px;
 }
 .Scaner-Input{
-    width:400px;
+    width:22rem;
     height:60px;
     border: 2px solid silver;
     border-radius: 9px;
@@ -194,7 +194,7 @@
 
 .Recipient-Input{
     height: 48px;
-    width: 250px;
+    width: 220px;
     border:none;
     outline: none;
 }
