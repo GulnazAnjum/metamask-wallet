@@ -43,10 +43,7 @@
     margin-left: 60px;
 }
 .passwordStyle {
-    /* font-size: 17px;
-    font-weight: 500;
-    margin-left: 20px;
-    margin-top: 20px; */
+    
     width: 80%;
     height: 20%;
     background-color: transparent;
@@ -54,10 +51,7 @@
     border-radius: 10px;
     margin-left: 20px;
     margin-top: 20px;
-    /* outline: none;
-    border: none;
-    
-    line-height: 0px; */
+  
 }
 .paraContainer {
     width: 100%;

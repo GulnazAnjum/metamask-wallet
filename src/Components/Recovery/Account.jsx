@@ -40,7 +40,6 @@ const ButtonTow =()=>{
             Save this recovery phrase as it will help you when password is forgotten.
           </p>
           <div className="Last-Buttons">
-          
             <Button variant="primary" className="Second-Button"  onClick={()=>ButtonTow()}>
               Next
             </Button>          

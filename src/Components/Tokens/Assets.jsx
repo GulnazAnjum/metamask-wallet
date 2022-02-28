@@ -2,9 +2,11 @@
 import { Link } from "react-router-dom";
 import "./Assets.css";
 const Assets = () => {
+ 
   return (
     <>
       <div>
+
         <div className="Main-Icon-Container">
           <div className="Main-Header-Icons"></div>
 
@@ -25,7 +27,7 @@ const Assets = () => {
                 </Link>
               </Link>
 
-              <Link to="/receive" className="Receive-Icon">
+              <Link to="/ReciveQrcode" className="Receive-Icon">
                 <i id="Content-icon-buy" className="material-icons">
                   file_download
                 </i>
@@ -34,6 +36,9 @@ const Assets = () => {
             </div>
           </div>
         </div>
+
+
+   <h1 id="HistoryContent">History</h1>
       </div>
    
     </>

@@ -1,6 +1,7 @@
+import { Button } from 'bootstrap';
 import React from 'react'
 import Coinrow from "./Coinrow"
-const titles= ['#','Coin', 'name','Price'];
+const titles= ['#','Coin', 'name','Price', 'Button'];
 
 const TableCoin = ({coins,search}) => {
    const filteredCoins= coins.filter((coin)=>

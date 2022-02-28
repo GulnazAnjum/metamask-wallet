@@ -1,33 +1,48 @@
 import React from 'react';
-import "./Bitcoin.css"
+import { Link } from 'react-router-dom';
+
 
 const BNB = () => {
     return (
         <div>
-        <div>
-        <h1>BNB</h1>
-        <label>price:</label>
-        <input placeholder='379.78'></input>
-        <br></br>
-        <br></br>
-        <label>Balance:</label>
-        <input></input>
-        </div>
-        <div className='buttonsection'>
-          <button className='Sendbutton'>Send</button>
+         <div className="Main-Icon-Container">
+          <div className="Main-Header-Icons"></div>
+
+          <div className="BitcoinContainer">
+           <img
+          src="./Images/smartchain.png.jpg"
+          alt=""
+          height={50}
+          width={50}
+          className="SmartChain-Icon"
+        />
+            <h1 className="MoneyCounter">0 BNB</h1>
+
+          </div>
           
-          <button className='Recievebutton'>Receive</button>
-         
-          <button className='AdressCopy'>Address Copy</button>
-      
+          <div className="Link-Icons-Container">
+            <div className="Main-Icons">
+              <Link to="/AssetsSend" className="Send-Icon">
+                <i id="Content-icon-buy" className="material-icons">
+                  file_upload
+                </i>
+                <Link to="/">
+                  <b id="Content-icon-buy">Send</b>
+                </Link>
+              </Link>
+
+              <Link to="/ReciveQrcode" className="Receive-Icon">
+                <i id="Content-icon-buy" className="material-icons">
+                  file_download
+                </i>
+                <b id="Content-icon-buy">Receive</b>
+              </Link>
+            </div>
+          </div>
         </div>
-        <div>
-            <h2 className='Transactionhistory'>Transaction history</h2>
-        </div>
-        <div className='H3component'>
-            <h3 className='headingOne'>Receive</h3>
-            <h3 className='headingtwo'>Send</h3>
-        </div>
+
+
+   <h1 id="HistoryContent">History</h1>
         
         
         

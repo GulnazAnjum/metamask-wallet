@@ -30,6 +30,11 @@
     /* margin-left: 30px; */
 }
 
+#HistoryContent{
+    margin-top: 400px;
+    margin-left: -1400px;
+}
+
 
 /* main ui css start here */
 .Main-Icon-Container {
@@ -55,9 +60,9 @@
 }
 
 .MoneyCounter {
-    /* width: 700px; */
+   
     color: white;
-    /* margin-left: -300px; */
+   
 
 }
 .Second-Link-Container{

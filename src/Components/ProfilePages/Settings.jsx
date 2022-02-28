@@ -1,5 +1,5 @@
 import React from "react";
-// import Child from "../Third-Folder/Child";
+
 import CreateAccount from "../ProfilePages/CreateAccount";
 import Generalpage from "./SettingsPage/Generalpage";
 import NetworksPage from "./SettingsPage/NetworksPage";
@@ -25,8 +25,7 @@ const Settings = () => {
                     <input type="radio" name="slider"  defaultChecked id="general" />
                     <input type="radio" name="slider" id="blog" />
                     <input type="radio" name="slider" id="help" />
-                    {/* <input type="radio" name="slider" id="code" />
-                    <input type="radio" name="slider" id="about" /> */}
+                    
                     <div className="list">
                         <label htmlFor="general" className="home">
                             <span className="title-name">General</span>
@@ -35,12 +34,7 @@ const Settings = () => {
                             <span className="title-name">Networks</span>
                         </label>
                        
-                        {/* <label htmlFor="code" className="code">
-                            <span className="title-name">Code</span>
-                        </label>
-                        <label htmlFor="about" className="about">
-                            <span className="title-name">About</span>
-                        </label> */}
+                     
                         <div className="slider" />
                     </div>
                     <div className="text-content">

@@ -1,7 +1,16 @@
 import React from 'react'
+import { Button } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 import "./Coinrow.css";
 const Coinrow = ({coin,index}) => {
     console.log(coin,index);
+  
+    let history=useNavigate();
+    const reciveFunction =()=>{
+      history("/ReciveQrcode")
+     
+     } 
+     
   return (
          <tr>
          <td>{index}</td>
@@ -18,6 +27,10 @@ const Coinrow = ({coin,index}) => {
         <td>
             {coin.current_price}
         </td>
+        <td>
+            <Button onClick={()=>reciveFunction()} style={{width:"80px"}}>Receive</Button>
+        </td>
+
       
     </tr> 
     

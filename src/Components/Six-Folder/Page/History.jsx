@@ -4,14 +4,7 @@ import {Link} from "react-router-dom"
 const History = () => {
   return (
     <div>
-      {/* <div className="Send-Compon">
-    <Link to="/TestPage">    <i id="content-icon-01" className="fas fa-arrow-left Send-Icon "></i></Link>
-        <input
-          type="text"
-          placeholder="Search-Buy "
-          style={{ Color: "white" }}
-        />
-      </div> */}
+      <h5>No Transaction history</h5>
     </div>
   );
 };

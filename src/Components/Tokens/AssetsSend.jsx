@@ -2,9 +2,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
-// import "./Navigat.css";
+
 import "./AssetsSend.css"
+
 const AssetsSend = () => {
+ 
+  
 
   const handleNextButton = () => {
     alert("Congratulation")
