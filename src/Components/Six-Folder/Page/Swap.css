@@ -1,3 +1,5 @@
+
+
 .Swap-Page-Container{
     width:100%;
     height:auto;
@@ -55,7 +57,7 @@
     padding:8px;
 }
 .Footer-Button-Section{
-    margin-left: 100px;
+   
     margin-top: 15px;
     margin-bottom: 15px;
     
@@ -65,13 +67,14 @@
 
 }
 .Per-one{
-    margin-left: 90px;
+    margin-left: 16px;
     background-color: gainsboro !important;
     width: 100px;
     height: 30px;
     color: blue !important;
     border: none !important;
     border-radius: 20px;
+    margin: 10px;
 }
 .text{
     text-align: center;
@@ -83,8 +86,19 @@
 .Exchange-Link{
     font-size: 23px;
     text-decoration: none;
-    color: black;
-    
+    color: #fff;
+    background-color: #2a8cdc;
+    border-radius: 20px;
+    padding: 5px 20px;   
+}
+.Swap-Link{
+    font-size: 23px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #2a8cdc;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin-left: 10px;   
 }
 .Swap-Text{
     font-size: 23px;

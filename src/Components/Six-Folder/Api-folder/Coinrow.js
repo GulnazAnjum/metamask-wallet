@@ -6,20 +6,18 @@ const Coinrow = ({coin,index}) => {
     console.log(coin,index);
   
     let history=useNavigate();
-    const reciveFunction =()=>{
+    const ReceiveFunction =()=>{
       history("/ReciveQrcode")
-     
      } 
-     
   return (
          <tr>
          <td>{index}</td>
         <td>
-        <img src={coin.image } alt={coin.name}  className='img-fluid me-3 Coin-Image'/>
+        <img src={coin.image } alt={coin.name} onClick={()=>ReceiveFunction()} className='img-fluid me-3 Coin-Image'/>
         </td>
         <td>
-        <span className='Coin-Name'>
-            {coin.name}
+        <span className='Coin-Name' onClick={()=>ReceiveFunction()}>
+            {coin.name} 
             </span>
             
             <span className="ms-3 text-muted text-uppercase">{coin.symbol}</span>
@@ -27,11 +25,6 @@ const Coinrow = ({coin,index}) => {
         <td>
             {coin.current_price}
         </td>
-        <td>
-            <Button onClick={()=>reciveFunction()} style={{width:"80px"}}>Receive</Button>
-        </td>
-
-      
     </tr> 
     
   )

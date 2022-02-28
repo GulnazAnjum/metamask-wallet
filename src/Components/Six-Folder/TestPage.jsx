@@ -51,35 +51,35 @@ const TestPage = () => {
               <Link target="_self" to="/AssetsSend" className="Swap-Icon">
                 <i id="Content-icon-buy" class="fa fa-upload"></i>
                 <br />
-                <b id="Content-icon-buy">Send</b>
+                <b id="Content-icon-buy">&nbsp; Send</b>
               </Link>
 
             
               <Link target="_self" to="/receive" className="Swap-Icon">
                 <i id="Content-icon-buy" class="fa fa-download"></i>
                 <br />
-                <b id="Content-icon-buy">Receive</b>
+                <b id="Content-icon-buy">&nbsp; &nbsp; Receive</b>
               </Link>
 
               <Link target="_self" to="/history" className="Swap-Icon">
                 <i id="Content-icon-buy" class="fas fa-tag"></i>
                 <br />
-                <b id="Content-icon-buy">History</b>
+                <b id="Content-icon-buy">&nbsp; &nbsp; History</b>
               </Link>
               <Link target="_self" to="/swap" className="Swap-Icon">
                 <i id="Content-icon-buy" class="fas fa-exchange-alt"></i>
                 <br />
-                <b id="Content-icon-buy">Swap</b>
+                <b id="Content-icon-buy"> &nbsp; Swap</b>
               </Link>
               <Link target="_self" to="/addtoken" className="Swap-Icon">
                 <i id="Content-icon-buy" class="fas fa-tag"></i>
                 <br />
-                <b id="Content-icon-buy">Token</b>
+                <b id="Content-icon-buy">&nbsp; &nbsp; Token</b>
               </Link>
               <Link target="_self" to="/nftstoken" className="Swap-Icon">
                 <i id="Content-icon-buy" class="fas fa-tag"></i>
                 <br />
-                <b id="Content-icon-buy">NFT </b>
+                <b id="Content-icon-buy">&nbsp; &nbsp; &nbsp; NFT </b>
               </Link>
             </div>
           </div>

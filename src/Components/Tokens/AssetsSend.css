@@ -14,7 +14,7 @@
    margin-top: 20px;
 }
 .Scaner-Input{
-    width:22rem;
+    width: 98%;
     height:60px;
     border: 2px solid silver;
     border-radius: 9px;
@@ -26,6 +26,11 @@
     width: 220px;
     border:none;
     outline: none;
+}
+
+
+.Recipient-Add label{
+    width: 124px;
 }
 
 
@@ -117,7 +122,7 @@
 /* ------------------------------------------------------------------ */
 .borderContainer{
     height: 70px;
-    width: 250px;
+    width: 98%;
     outline: none;
     border: 2px solid silver;
     border-radius: 9px;
@@ -134,9 +139,12 @@
  }
  .BitcoinStyle{
     margin: 0 auto;
-   
+    /* width:100%; */
+    /* height:55px; */
+    /* display:flex; */
     flex-direction: column;
-  
+    /* justify-content:center; */
+    /* margin-top: 20px; */
  }
  .BitcoinStyle i{
      margin-top: 2px;
@@ -158,7 +166,7 @@
  }
  .amountContainer{
     height: 70px;
-    width: 250px;
+    width: 98%;
     outline: none;
     border: 2px solid silver;
     border-radius: 9px;
@@ -179,6 +187,32 @@
      width: 60px;
      height: 30px;
  }
-
-
+ .mainWrapper{
+     width: 98%;
+     max-width: 500px;
+     border: 1px solid #aaa;
+     border-radius: 20px;
+     margin: 0 auto; 
+     padding: 10px 0;    
+ }
+ .headerStyle1{
+    background-color: #2a8cdc;
+    color: #fff;
+    justify-content: center;
+    height:49px ;
+    border-radius: 20px;
+    margin : 0 auto;
+    width: 98%;
+    /* border-bottom-right-radius: 10px; */
+ }
+ .innerSendContainer{
+     width: 98%;
+     margin: 0 auto;
+ }
+ .firstButton{
+     width: 140px;
+ }
+ .secondButton{
+     width: 140px;
+ }
   
