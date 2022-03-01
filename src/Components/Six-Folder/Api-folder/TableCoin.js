@@ -1,14 +1,12 @@
-import { Button } from 'bootstrap';
+
 import React from 'react'
 import Coinrow from "./Coinrow"
 const titles= ['#','Coin', 'name','Price'];
-
 const TableCoin = ({coins,search}) => {
    const filteredCoins= coins.filter((coin)=>
    coin.name.toLowerCase().includes(search.toLowerCase())|
     coin.symbol.toLowerCase().includes(search.toLowerCase()))
-  return (
-    
+  return ( 
   <table className='table table mt-4 '>
       <thead>
       <tr>
@@ -26,9 +24,6 @@ const TableCoin = ({coins,search}) => {
        </tbody>   
       
   </table>
-    
-  
   )
 }
-
 export default TableCoin

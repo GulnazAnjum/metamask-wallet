@@ -11,7 +11,6 @@ import TestPage from "./TestPage";
     <div>
       <BrowserRouter>
         <Routes>
-         
           <Route exact  path="/history" element={<History />} />
           <Route exact path="/exchange" element={<Exchange />} />
           <Route exact  path="/Receive" element={<Recive />} />

@@ -36,7 +36,50 @@ const Etherium = () => {
         </div>
 
 
-   <h1 id="HistoryContent">History</h1>
+        <h1>History</h1>
+        <div className="historyContainer">
+
+          <div className="borderMainContainer">
+            <div className="dateTextStyle">Nov 10,2021</div>
+            <div className="dataContainer">
+              <i class="fa fa-upload"></i>
+              <div>
+                <div>Sent</div>
+                <div>0xb4flf45ggfhghndtm</div>
+              </div>
+              <div>
+                -100 USDT
+              </div>
+            </div>
+
+            <div className="dateTextStyle">Nov 11,2021</div>
+            <div className="dataContainer">
+              <i class="fa fa-upload"></i>
+              <div>
+                <div>Sent</div>
+                <div>0xb4flf45ggfhghndtm</div>
+              </div>
+              <div>
+                -100 USDT
+              </div>
+            </div>
+            <div className="dateTextStyle">Nov 12,2021</div>
+            <div className="dataContainer">
+              <i class="fa fa-upload"></i>
+              <div>
+                <div>Sent</div>
+                <div>0xb4flf45ggfhghndtm</div>
+              </div>
+              <div>
+                -100 USDT
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
         
         
         

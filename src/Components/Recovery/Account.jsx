@@ -6,14 +6,12 @@ import "./Account.css"
 let history=useNavigate();
 const ButtonTow =()=>{
  history("/ending")
-
 } 
-
   return (
     <div className="APP">
       <div className="Man-body">
         <div className="im">
-          <img src="images/trodex1.png" alt="" />
+          <img src="images/trodex1.png" alt=""/>
         </div>
         <div className="Button-Container">
           <Button>
@@ -45,11 +43,8 @@ const ButtonTow =()=>{
             </Button>          
             </div>
         </Card>
-      
     </div>
-    
 </div>
   );
 };
-
 export default Account;

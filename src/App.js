@@ -18,16 +18,15 @@ import Settings from './Components/ProfilePages/Settings';
 import Generalpage from "./Components/ProfilePages/SettingsPage/Generalpage";
 import NetworksPage from "./Components/ProfilePages/SettingsPage/NetworksPage";
 import AboutPage from "./Components/ProfilePages/SettingsPage/AboutPage";
-
 import Etherium from "./Components/Tokens/Etherium";
 import SmartChain from "./Components/Tokens/SmartChain";
 import BitcoinCash from "./Components/Tokens/BitcoinCash";
 import BNB from "./Components/Tokens/BNB"
 import Index from "./Components/index/Index";
-
 import Assets from "./Components/Tokens/Assets";
 import AssetsSend from "./Components/Tokens/AssetsSend";
 import ReciveQrcode from "./Components/Six-Folder/Page/ReciveQrcode";
+import BtcExchange from "./Components/Tokens/BtcExchange";
 function App() {
   return (
     <div className="App">
@@ -58,6 +57,7 @@ function App() {
           <Route exact path="/BitcoinCash" element={<BitcoinCash />} />
           <Route exact path="/BNB" element={<BNB />} />
           <Route exact path="/ReciveQrcode" element={<ReciveQrcode />} />
+          <Route exact path="/BtcExchange" element={<BtcExchange />} />
         </Routes>
       </BrowserRouter>
 

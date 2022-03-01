@@ -1,0 +1,49 @@
+ .Main-BtcExchange-Container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.BtcExchange-Container{
+   width: 50%;
+}
+.Header-Send-Btc{
+    display: flex;
+    justify-content:center;
+} 
+/* icon css start here */
+.Send-Icon{
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    /* margin-top: 20px; */
+    border: 2px solid #7f8c8d;
+    border-radius: 50%;
+    color: #7f8c8d;
+    text-align: center;
+}
+.Header-Send-Btc h1{
+      line-height: 60px;
+      margin-left: 10px;
+      color: #7f8c8d;
+}
+.Header-Send-Btc h1 small{
+    font-size: 20px;
+}
+
+/* Recipient-Btc-Code code start here */
+
+.Recipient-Btc-Code p{
+    color: #7f8c8d;
+    font-size: 20px;
+}
+
+.NetWork-Fee code start here */
+ .NetWork-Fee p{
+    color: #7f8c8d;
+    font-size: 20px;
+} 
