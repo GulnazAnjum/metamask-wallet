@@ -57,10 +57,10 @@ export const Password = () => {
                                     placeholder="Enter your password"
 
                                     onChange={(e) => validate(e.target.value)}></input> <br />
-                                <span style={{
+                                <span className="Error" 
 
-                                    color: 'red',
-                                }}>{errorMessage}</span>
+                                   
+                            >{errorMessage}</span>
                             </pre>
                         </div><br></br>
                         <Button variant="primary" className="Bubbton" onClick={() => Buttton()}>
