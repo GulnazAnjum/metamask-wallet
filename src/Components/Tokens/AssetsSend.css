@@ -121,8 +121,12 @@
   
     line-height: 3.2rem !important; 
 }
-
-
+.modal-dialog{
+    transform: translate(1%, 18%) !important;
+}
+.modal-footer{
+    margin: 0 auto;
+}
      
 
 /* ------------------------------------------------------------------ */

@@ -17,8 +17,9 @@ const Token = () => {
           <big>0 BTC</big>
         </div>
       </div>
+      <div className="hr-line">
       <hr />
-
+      </div>
       <div className="Ethereum-Container">
        <Link to="/Etherium"> <i class="fab fa-ethereum Ethereum-Icon"></i></Link>
         <div className="Ethereum-Content">
@@ -30,7 +31,9 @@ const Token = () => {
           <big>0 ETC</big>
         </div>
       </div>
+      <div className="hr-line">
       <hr />
+      </div>
 
       {/* green bitcoin code start here */}
 
@@ -45,7 +48,9 @@ const Token = () => {
           <big>0 BCH</big>
         </div>
       </div>
+      <div className="hr-line">
       <hr />
+      </div>
 
       {/* bnb coin code start here */}
       <div className="Bnb-Container">
@@ -64,7 +69,9 @@ const Token = () => {
           <big>0 BNB</big>
         </div>
       </div>
+      <div className="hr-line">
       <hr />
+      </div>
 
       {/* smart chain coin code start here */}
       <div className="SmartChain-Container">
@@ -83,7 +90,9 @@ const Token = () => {
           <big>0 BNB</big>
         </div>
       </div>
+      <div className="hr-line">
       <hr />
+      </div>
     </div>
   );
 };

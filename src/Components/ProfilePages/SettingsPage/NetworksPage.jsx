@@ -14,21 +14,7 @@ const NetworksPage = () => {
             </div>
             <span className="borderStyle"></span>
             <div className="networkContaoner">
-                <div className="networkLeftContainer">
-                    <div className="leftDataStyle" >
-                        <label className="leftLableStyle">Ethereum Mainnet</label>
-                    </div>
-                    <div className="leftDataStyle">
-                        <label className="leftLableStyle">Ropsten Test Network</label>
-                    </div>
-                    <div className="leftDataStyle" >
-                        <label className="leftLableStyle">Rinkeby Test Network</label>
-                    </div>
-                    <div className="leftDataStyle">
-                        <label className="leftLableStyle">Goerli Test Network</label>
-                    </div>
-
-                </div>
+              
                 <div className="networkRightcontainer">
                     <div className="rightDataStyle" >
                         <label className="rightLableStyle">Network Name</label>

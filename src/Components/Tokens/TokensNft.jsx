@@ -10,28 +10,8 @@ const TokensNft = () => {
       <div className="app">
       <Tabs defaultIndex={0} style={{ dispaly: "flex" }}>
         <TabList style={{ listStyle: "none", dispaly: "flex" }}>
-          <Tab
-            style={{
-              color: "gray",
-              fontSize: "30px",
-              backgroundColor: "lightblue",
-              width: "50%",
-              float: "left",
-            }}
-          >
-            Token
-          </Tab>
-          <Tab
-            style={{
-              color: "gray",
-              fontSize: "30px",
-              backgroundColor: "lightblue",
-              width: "50%",
-              float: "right",
-            }}
-          >
-            NFTS
-          </Tab>
+          <Tab className='tokenTab'>Token</Tab>
+          <Tab className='tokenTab' >  NFTS</Tab>
         </TabList>
         <TabPanel>
           <Token />

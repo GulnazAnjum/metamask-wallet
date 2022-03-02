@@ -97,6 +97,60 @@
     margin-top: 1git add .0px;
 }
 
+.tokenTab{
+    color: #fffdfd;
+    font-size: 25px;
+    background-color: #2a8cdc;
+    width: 49%;
+    float: left;
+    border-radius: 5px;
+    margin-bottom: 17px;
+    justify-content: space-between;    
+}
+.tokenTab:nth-child(1){
+    margin-right: 5px;
+}
+
+.Bitcoin-Container{
+    width: 80% !important;
+    max-width: 400px;
+    margin: 0 auto ;   
+}
+.Ethereum-Container{
+    width: 80% !important;
+    max-width: 400px;
+    margin: 0 auto ;   
+}
+.BitcoinCash-Container{
+    width: 80% !important;
+    max-width: 400px;
+    margin: 0 auto ;   
+}
+.Bnb-Container{
+    width: 80% !important;
+    max-width: 400px;
+    margin: 0 auto ;   
+}
+
+.SmartChain-Container{
+    width: 80% !important;
+    max-width: 400px;
+    margin: 0 auto ;   
+}
+
+.hr-line{
+   padding: 1.2rem;
+}
+
+hr{
+    width: 80% !important;
+    margin: 0 auto !important;
+}
+.tokenTab:hover{
+    color: #2a8cdc;
+    background-color: #6abbfd;
+}
+
 
 /* main icons css start here */
 .Main-Icons {
