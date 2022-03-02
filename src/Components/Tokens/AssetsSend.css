@@ -12,15 +12,15 @@
 }
 .Scaner-Input{
     width: 98%;
-    height:60px;
+    height:51px;
     border: 2px solid silver;
     border-radius: 9px;
     /* padding: 12px; */
 }
 
 .Recipient-Input{
-    height: 48px;
-    width: 220px;
+    height: 44px;
+    width: 140px;
     border:none;
     outline: none;
 }
@@ -118,14 +118,16 @@
 }
 
 .amountLabelStyle1{
-    font-size: larger;
- 
- 
+  
+    line-height: 3.2rem !important; 
 }
+
+
+     
 
 /* ------------------------------------------------------------------ */
 .borderContainer{
-    height: 70px;
+    height: 51px;
     width: 98%;
     outline: none;
     border: 2px solid silver;
@@ -143,23 +145,24 @@
  }
  .BitcoinStyle{
     margin: 0 auto;
-  padding-top: 5px;
+  padding-top: 1px;
   padding-left: 2px;
     flex-direction: column;
    
   
  }
  .BitcoinStyle i{
+     font-size: 1.2rem;
      margin-top: 2px;
      margin-left: 2px;
-     height: 50px;
-     width: 50px;
+     height: 40px;
+     width: 40px;
  }
  .labelStyle{
-     font-size: 22px;
+     font-size: 18px;
  }
  .labelBalanceStyle{
-     font-size: 18px;
+     font-size: 14px;
      border: none;
  }
  .innerContainer{
@@ -169,12 +172,11 @@
      padding-left: 20px;
  }
  .amountContainer{
-    height: 70px;
+    height: 51px;
     width: 98%;
     outline: none;
     border: 2px solid silver;
     border-radius: 9px;
-    
     right: 0;
     margin-left: 20px;
  }
@@ -182,16 +184,20 @@
      display: flex;
      flex-direction: row;
      justify-content:start;
-     margin-top: 14px;
+     margin-top: 8px;
      padding-left: 7px;
     
     
  }
  .unit-input__input-container input{
-     /* width: 4.5rem; */
-     border: none;
-     outline: none;
-     text-decoration: none;
+    width: 3.5rem;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    background: #e8e6e6;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 8px;
  }
  .unit-input__input{
      width: 60px;
@@ -200,9 +206,10 @@
  }
  .mainWrapper{
      width: 98%;
-     max-width: 500px;
+     max-width: 400px;
+    /* height: 510px; */
      border: 1px solid #aaa;
-     border-radius: 20px;
+     border-radius: 8px;
      margin: 0 auto; 
      padding: 10px 0;    
  }
@@ -228,7 +235,7 @@
  }
 
  .unit-input__suffix{
-     font-size:20px;
+     font-size:18px;
      /* margin-left: 90px; */
  }
 

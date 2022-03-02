@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import TokensNft from "../Tokens/TokensNft";
+import NetworksPage from "../ProfilePages/SettingsPage/NetworksPage";
 import { useState } from "react";
 import "./MultiCoin.css";
 // import { Modal, Button } from "react-bootstrap";
@@ -50,6 +51,11 @@ import "./MultiCoin.css";
 const TestPage = () => {
   // const [modalShow, setModalShow] = React.useState(true);
   // const [count,setCount]=useState(0);
+  // const addnetworkbutton=()=>{
+  //   <NetworksPage/>
+  // }
+
+  
   return (
     <>
       <div>
@@ -61,9 +67,36 @@ const TestPage = () => {
 
             {/* <h1 className="Money-Counter">$0.000</h1> */}
             <div className="Side-Bar-Button">
-              <button>
+              {/* <button>
                 <span></span>Ethereum Mainnet
-              </button>
+              </button> */}
+
+
+              
+
+
+
+            <div className="dropdown">
+  <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Ethereum Mainnet
+  </button>
+  <div className="dropdown-menu box" aria-labelledby="dropdownMenuButton1">
+    <div className="middle-content1">
+    {/* <a className="dropdown-item" href="/Settings">Settings</a> */}
+   <div className="top-head">
+   <span className="heading" > Network</span>
+   </div>
+  <div className="mid-area">
+  <span className="subjet-net">Ethereum Mainnet</span>
+  </div>
+    <div className="foot-btn">
+  <Link to='/settings'> <button>Add Networks</button></Link> 
+    </div>
+
+    </div>
+ 
+  </div>
+</div>
             </div>
 
             <div class="dropdown">

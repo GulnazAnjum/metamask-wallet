@@ -4,6 +4,7 @@
     background-color: #2a8cdc;
     display: flex;
     color: white;
+    margin-bottom: 25px;
 }
 
 .Send-Compon input {
@@ -274,19 +275,16 @@ color: blue;
 .borderMainContainer{
     margin-left: 40px;
     margin-right: 40px;
-    border: 1px solid gray;
-    border-radius: 20px;
     padding: 20px;
-    background-color: gainsboro;
 }
 .dataContainer{
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
-    background-color: rgb(201, 192, 192);
+    justify-content:space-between;
     border-radius: 5px;
     color: #4d4d57;
     padding: 10px;
+    border-bottom: 1px solid #afa9a9;
 }
 .dateTextStyle{
     text-align: left;
@@ -298,6 +296,7 @@ color: blue;
 } */
 .dataContainer i{
     color: rgb(66, 65, 65);
+    padding-top: 10px;
 }
 
 @media screen and (max-width:420px){

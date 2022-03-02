@@ -22,7 +22,7 @@ const Settings = () => {
             <div className="container">
                 <div className="topic">Settings</div>
                 <div className="middle-content">
-                    <input type="radio" name="slider"  defaultChecked id="general" />
+                    <input type="radio" name="slider"  defaultChecked id="blog" />
                     <input type="radio" name="slider" id="blog" />
                     <input type="radio" name="slider" id="help" />
                     

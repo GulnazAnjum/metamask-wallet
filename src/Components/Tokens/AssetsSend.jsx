@@ -40,7 +40,7 @@ const AssetsSend = () => {
           <div className="assetsContainer"></div>
           <div className="assetsContainer">
             <div className="Recipient-Add">
-              <label className="amountLabelStyle">Asset:</label>
+              <label className="amountLabelStyle1">Asset:</label>
               <div className="borderContainer">
                 <div>
                   <div className="BitcoinStyle">
@@ -57,7 +57,7 @@ const AssetsSend = () => {
 
           <div className="assetsContainer">
             <div className="Recipient-Add">
-              <label className="amountLabelStyle">Amount:</label>
+              <label className="amountLabelStyle1">Amount:</label>
               <div className="amountContainer">
                 <div class="unit-input__inputs">
                   <div class="unit-input__input-container">

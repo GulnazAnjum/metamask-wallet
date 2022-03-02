@@ -38,7 +38,7 @@ const Assets = () => {
         </div>
 
 
-        <h1>History</h1>
+      
         <div className="historyContainer">
 
           <div className="borderMainContainer">
